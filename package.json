@@ -1,11 +1,11 @@
 {
-  "name": "PureCssParallex",
-  "version": "1.0.0",
-  "description": "",
+  "name": "purecssparallex",
+  "version": "0.0.1",
+  "description": "React Redux CSS-Parallax Starter",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/.bin/webpack-dev-server --inline --hot",
+    "start": "webpack-dev-server --inline --hot",
     "build": "WEBPACK_ENV=production node_modules/.bin/webpack --optimize-minimize --progress --color",
     "deploy": "npm run build; surge -p . -d reactcssparallax.surge.sh"
   },
@@ -39,5 +39,24 @@
     "react-router": "^2.6.0",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karna41317/css_parallex.git"
+  },
+  "keywords": [
+    "css",
+    "parallex",
+    "pure",
+    "onlycss",
+    "nojs",
+    "react",
+    "webpack"
+  ],
+  "author": "karan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karna41317/css_parallex/issues"
+  },
+  "homepage": "https://github.com/karna41317/css_parallex#readme"
 }
