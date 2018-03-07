@@ -10,8 +10,7 @@ import About from './about.js';
 
 class Main extends Component {
 
-  componentWillMount() {
-  }
+  componentWillMount() {}
 
   render() {
     return (
@@ -96,14 +95,9 @@ class Main extends Component {
   }
 }
 
-const mapStateToProps = (state) => (
-  {
-  }
-);
+const mapStateToProps = (state) => ({});
 
-const mapDispatchToProps =
-  {
-  };
+const mapDispatchToProps = {};
 
 // react-redux glue
 export default connect(mapStateToProps, mapDispatchToProps)(Main);

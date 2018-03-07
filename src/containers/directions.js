@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 
 class Directions extends Component {
 
-  componentWillMount() {
-  }
+  componentWillMount() {}
 
   render() {
     return (
@@ -13,14 +12,9 @@ class Directions extends Component {
   }
 }
 
-const mapStateToProps = (state) => (
-  {
-  }
-);
+const mapStateToProps = (state) => ({});
 
-const mapDispatchToProps =
-  {
-  };
+const mapDispatchToProps = {};
 
 // react-redux glue
 export default connect(mapStateToProps, mapDispatchToProps)(Directions);
